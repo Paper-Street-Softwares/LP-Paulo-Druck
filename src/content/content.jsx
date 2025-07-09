@@ -127,8 +127,9 @@ const content = {
       miniTag: "ADVOGADO TRIBUTARISTA EM PORTO ALEGRE - RS",
       title: (
         <h1 className="mb-[16px]">
-          Advocacia especializada na defesa
-          <span className="text-primary"> em execuções fiscais</span>
+          Advocacia especializada na defesa das Empresas e dos Contribuintes
+          contra cobranças indevidas
+          <span className="text-primary"> e autuações fiscais</span>
         </h1>
       ),
       subtitle: "Não perca seu patrimônio para o fisco.",
@@ -184,9 +185,9 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADE",
-      title: "Recuperação e regularização tributária",
+      title: "Defesa em execuções fiscais",
       subtitle:
-        "Soluções estratégicas para reduzir a carga fiscal, recuperar créditos e negociar dívidas com o Fisco.",
+        "É um direito do executado para contestar as cobranças indevidas de dívidas tributárias.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -340,8 +341,9 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Soluções Jurídicas para Dívidas Rurais no Agronegócio",
+        subtitle:
+          "Renegociação e regularização de débitos rurais com foco em preservar a atividade e o patrimônio do produtor.",
         description: (
           <div>
             A_Definir
@@ -416,8 +418,8 @@ const content = {
           patrimônio contra bloqueios, penhoras e outras medidas coercitivas
           adotadas pelo Fisco.
           <br />
-          Busco soluções jurídicas eficazes para contestar cobranças indevidas
-          e, sempre que possível, anular ou reduzir o valor exigido.
+          Busco soluções jurídicas eficazes de contestar cobranças indevidas e,
+          sempre que possível, anular ou reduzir o valor exigido.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -428,8 +430,8 @@ const content = {
           adotadas pelo Fisco.
           <br />
           <br />
-          Busco soluções jurídicas eficazes para contestar cobranças indevidas
-          e, sempre que possível, anular ou reduzir o valor exigido.
+          Busco soluções jurídicas eficazes de contestar cobranças indevidas e,
+          sempre que possível, anular ou reduzir o valor exigido.
           <br />
           <br />
           Também trabalho com a recuperação de créditos tributários, analisando
