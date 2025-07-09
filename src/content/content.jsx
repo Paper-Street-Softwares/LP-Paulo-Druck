@@ -185,16 +185,16 @@ const content = {
     },
     features: {
       miniTag: "ESPECIALIDADE",
-      title: "Defesa em execuções fiscais",
+      title: "Atuação em Direito Tributário",
       subtitle:
-        "É um direito do executado para contestar as cobranças indevidas de dívidas tributárias.",
+        "Estratégias legais para proteger seu patrimônio e recuperar valores pagos indevidamente.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: "Recuperação de créditos tributários",
+        title: "Defesa em execuções fiscais",
         subtitle:
-          "Identificamos tributos pagos indevidamente para compensação ou restituição.",
+          "É um direito do executado para contestar as cobranças indevidas de dívidas tributárias.",
         description: (
           <div>
             A_Definir
@@ -229,9 +229,9 @@ const content = {
       },
       card2: {
         img: featuresImg2,
-        title: "ICMS, PIS, Cofins, IPI e Previdenciário",
+        title: "Recuperação de créditos tributários",
         subtitle:
-          "Recuperamos valores de impostos pagos a maior ou indevidamente pela sua empresa.",
+          "Identificamos tributos pagos indevidamente para compensação ou restituição.",
         description: (
           <div>
             A_Definir
