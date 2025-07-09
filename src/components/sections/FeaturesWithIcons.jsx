@@ -31,7 +31,6 @@ export default function FeaturesWithIcons({ colorMode }) {
         titleColorSet={textClass}
         subtitleColorSet={textClass}
         colorMode="dark"
-        
       />
       <SectionWrapper>
         <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">
@@ -80,6 +79,15 @@ export default function FeaturesWithIcons({ colorMode }) {
                 icon={content.texts.features.card4.icon}
                 title={content.texts.features.card4.title}
                 paragraph={content.texts.features.card4.subtitle}
+                className={textClass}
+                colorMode={colorMode}
+              />
+            </MotionDivDownToUp>
+            <MotionDivDownToUp>
+              <IconFeatureCard
+                icon={content.texts.features.card5.icon}
+                title={content.texts.features.card5.title}
+                paragraph={content.texts.features.card5.subtitle}
                 className={textClass}
                 colorMode={colorMode}
               />

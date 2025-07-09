@@ -48,7 +48,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
-                  className="bg-darker"
+                  className=""
                   labelColor="text-white"
                   label={content.texts.features.card1.buttonLabel}
                   buttonLink={content.texts.links.ctaWhatsapp}
@@ -81,7 +81,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
-                  className="bg-darker"
+                  className=""
                   labelColor="text-white"
                   colorMode={colorMode}
                   label={content.texts.features.card2.buttonLabel}
@@ -115,7 +115,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
-                  className="bg-darker"
+                  className=""
                   labelColor="text-white"
                   colorMode={colorMode}
                   label={content.texts.features.card3.buttonLabel}
@@ -149,7 +149,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
-                  className="bg-darker"
+                  className=""
                   labelColor="text-white"
                   colorMode={colorMode}
                   label={content.texts.features.card4.buttonLabel}
@@ -161,7 +161,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                       height="16"
                       viewBox="0 0 24 24"
                       fill="none"
-                      stroke="#fff"
+                      stroke=""
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -173,7 +173,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "}
-              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[28%] desktop2:w-[25%]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[28%] desktop2:w-[25%]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card5.icon}
                   title={content.texts.features.card5.title}
@@ -182,7 +182,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
-                  className="bg-darker"
+                  className=""
                   labelColor="text-white"
                   colorMode={colorMode}
                   label="Saber Mais"
@@ -205,7 +205,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                     </svg>
                   }
                 />
-              </MotionDivDownToUp>{" "} */}
+              </MotionDivDownToUp>{" "}
               {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[28%] desktop2:w-[25%]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card6.icon}
@@ -215,7 +215,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
-                  className="bg-darker"
+                  className=""
                   labelColor="text-white"
                   colorMode={colorMode}
                   label="Saber Mais"
