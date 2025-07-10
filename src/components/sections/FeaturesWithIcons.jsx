@@ -22,7 +22,7 @@ export default function FeaturesWithIcons({ colorMode }) {
   const textClass = textClasses[colorMode] || textClasses.default;
 
   return (
-    <SectionArea id="service" className={`${bgClass} `} paddingbot={true}>
+    <SectionArea id="service" className={`${bgClass} `} paddingbot={false}>
       <SectionHeader
         className={`text-center ${textClass}`}
         miniTitle={content.texts.features.miniTag}
@@ -46,13 +46,23 @@ export default function FeaturesWithIcons({ colorMode }) {
             </MotionDivDownToUp>
           </div>
 
-          <MotionDivDownToUp className="hidden desktop1:flex justify-center w-[35%]">
+          <MotionDivDownToUp className="hidden desktop1:flex gap-8 flex-col justify-center w-[35%]">
             <div
               className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
               style={{
                 backgroundImage: `url(${content.texts.features.imgFeatures})`,
               }}
             ></div>
+
+            <MotionDivDownToUp className="">
+              <IconFeatureCard
+                icon={content.texts.features.card3.icon}
+                title={content.texts.features.card3.title}
+                paragraph={content.texts.features.card3.subtitle}
+                className={` m-auto ${textClass}`}
+                colorMode={colorMode}
+              />
+            </MotionDivDownToUp>
           </MotionDivDownToUp>
 
           <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
@@ -66,15 +76,6 @@ export default function FeaturesWithIcons({ colorMode }) {
               />
             </MotionDivDownToUp>
 
-            {/* <MotionDivDownToUp>
-              <IconFeatureCard
-                icon={content.texts.features.card3.icon}
-                title={content.texts.features.card3.title}
-                paragraph={content.texts.features.card3.subtitle}
-                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
-                colorMode={colorMode}
-              />
-            </MotionDivDownToUp> */}
             {/* <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card4.icon}
