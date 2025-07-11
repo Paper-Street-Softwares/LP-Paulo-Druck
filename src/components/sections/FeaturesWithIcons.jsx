@@ -80,7 +80,7 @@ export default function FeaturesWithIcons({ colorMode }) {
 
         {/* desktop */}
         <div className="hidden desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0 desktop1:flex">
-          <div className="col1 tablet1:w-[50%] desktop1:mb-[15%] desktop1:w-[28%] flex flex-col justify-center items-center">
+          <div className="col1 tablet1:w-[50%] desktop1:mb-[25%] desktop1:w-[28%] flex flex-col justify-center items-center">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card1.icon}
@@ -111,7 +111,7 @@ export default function FeaturesWithIcons({ colorMode }) {
             </MotionDivDownToUp>
           </MotionDivDownToUp>
 
-          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] desktop1:mb-[15%] flex flex-col justify-center items-center ">
+          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] desktop1:mb-[25%] flex flex-col justify-center items-center ">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card2.icon}
