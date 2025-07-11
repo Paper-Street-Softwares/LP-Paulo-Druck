@@ -34,7 +34,7 @@ export default function FeaturesWithIcons({ colorMode }) {
       />
       <SectionWrapper>
         {/* mobile */}
-        <div className="w-full flex flex-col items-center gap-2 desktop1:gap-16 desktop1:hidden">
+        <div className="w-full flex flex-col items-center gap-2 pb-[48px] desktop1:gap-16 desktop1:hidden">
           {/* Linha de cima: Azul e Verde */}
           <div className="flex flex-col tablet1:flex-row tablet1:justify-center gap-5 w-full">
             {/* Card Azul */}
@@ -105,7 +105,7 @@ export default function FeaturesWithIcons({ colorMode }) {
                 icon={content.texts.features.card3.icon}
                 title={content.texts.features.card3.title}
                 paragraph={content.texts.features.card3.subtitle}
-                className={textClass}
+                className={` ${textClass}`}
                 colorMode={colorMode}
               />
             </MotionDivDownToUp>
