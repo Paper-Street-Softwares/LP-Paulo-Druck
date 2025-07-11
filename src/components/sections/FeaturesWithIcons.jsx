@@ -92,7 +92,7 @@ export default function FeaturesWithIcons({ colorMode }) {
             </MotionDivDownToUp>
           </div>
 
-          <MotionDivDownToUp className="hidden desktop1:flex flex-col gap-12 justify-center w-[35%]">
+          <MotionDivDownToUp className="hidden desktop1:flex flex-col gap-12 justify-center w-[35%] h-[1200px]">
             <div
               className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
               style={{
@@ -104,7 +104,7 @@ export default function FeaturesWithIcons({ colorMode }) {
               <IconFeatureCard
                 icon={content.texts.features.card3.icon}
                 title={content.texts.features.card3.title}
-                paragraph={content.texts.features.card3.subtitle}
+                paragraph={content.texts.features.card3.description}
                 className={` ${textClass}`}
                 colorMode={colorMode}
               />

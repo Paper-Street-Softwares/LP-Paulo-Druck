@@ -124,7 +124,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ADVOGADO TRIBUTARISTA EM PORTO ALEGRE - RS",
+      miniTag: "ADVOGADO TRIBUTARISTA COM ATUAÇÃO NACIONAL",
       title: (
         <h1 className="mb-[16px]">
           Advocacia especializada na defesa das Empresas e dos Contribuintes
@@ -267,14 +267,17 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Planejamento e revisão tributária",
+        title: "Quais são os impostos a recuperar?",
         subtitle:
           "Análise completa para identificar oportunidades e evitar desperdícios fiscais.",
         description: (
           <div>
-            A_Definir <br />
+            Tributos federais (IRPJ, IRRF, PIS/Pasep, Cofins, CSLL, IPI,
+            Contribuições Previdenciárias, dentre outros);
             <br />
-            A_Definir
+            Tributos Estaduais (ICMS, IPVA, ITCMD, dentre outros):
+            <br />
+            Tributos Municipais (ISS, ITBI, IPTU, dentre outros).
           </div>
         ),
         imgModal: imgFeaturesCardModal3,
