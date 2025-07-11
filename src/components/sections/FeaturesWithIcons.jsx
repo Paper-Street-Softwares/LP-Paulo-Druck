@@ -34,19 +34,19 @@ export default function FeaturesWithIcons({ colorMode }) {
       />
       <SectionWrapper>
         <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">
-          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
+          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] mb-auto desktop1:mb-[15%] flex flex-col justify-center items-center  ">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card1.icon}
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
-                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
+                className={` ${textClass}`}
                 colorMode={colorMode}
               />
             </MotionDivDownToUp>
           </div>
 
-          <MotionDivDownToUp className="hidden desktop1:flex gap-8 flex-col justify-center w-[35%]">
+          <MotionDivDownToUp className="hidden desktop1:flex gap-12 flex-col justify-center w-[35%] ">
             <div
               className="hidden h-[640px] w-full desktop1:flex col2 rounded-2xl bg-top bg-cover shadow-custom-opacity shadow-shadowFeatures/10"
               style={{
@@ -65,13 +65,23 @@ export default function FeaturesWithIcons({ colorMode }) {
             </MotionDivDownToUp>
           </MotionDivDownToUp>
 
-          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
+          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] desktop1:mb-[15%] flex flex-col justify-center items-center ">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card2.icon}
                 title={content.texts.features.card2.title}
                 paragraph={content.texts.features.card2.subtitle}
                 className={textClass}
+                colorMode={colorMode}
+              />
+            </MotionDivDownToUp>
+
+            <MotionDivDownToUp className="desktop1:hidden">
+              <IconFeatureCard
+                icon={content.texts.features.card3.icon}
+                title={content.texts.features.card3.title}
+                paragraph={content.texts.features.card3.subtitle}
+                className={` m-auto ${textClass}`}
                 colorMode={colorMode}
               />
             </MotionDivDownToUp>
