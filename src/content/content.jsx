@@ -268,8 +268,15 @@ const content = {
       card3: {
         img: featuresImg3,
         title: "Quais são os impostos a recuperar?",
-        subtitle:
-          "Análise completa para identificar oportunidades e evitar desperdícios fiscais.",
+        subtitle: (
+          <p>
+            Tributos federais (IRPJ, IRRF, PIS/Pasep, Cofins, CSLL, IPI,
+            Contribuições Previdenciárias, dentre outros);
+            <br /> Tributos Estaduais (ICMS, IPVA, ITCMD, dentre outros):
+            <br />
+            Tributos Municipais (ISS, ITBI, IPTU, dentre outros).
+          </p>
+        ),
         description: (
           <div>
             Tributos federais (IRPJ, IRRF, PIS/Pasep, Cofins, CSLL, IPI,
