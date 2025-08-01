@@ -33,14 +33,14 @@ export default function FeaturesWithIcons({ colorMode }) {
         colorMode="dark"
       />
       <SectionWrapper>
-        <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between desktop1:gap-x-0 desktop1:px-0">
-          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
+        <div className="flex desktop1:mt-[40px] flex-col items-center w-full tablet1:flex-row tablet1:justify-between gap-4 desktop1:gap-x-0 desktop1:px-0">
+          <div className="col1 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center gap-2 items-center">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card1.icon}
                 title={content.texts.features.card1.title}
                 paragraph={content.texts.features.card1.subtitle}
-                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px] ${textClass}`}
+                className={`tablet1:mb-[16px] desktop1:mb-0 desktop2:mb-[46px]  ${textClass}`}
                 colorMode={colorMode}
               />
             </MotionDivDownToUp>
@@ -64,7 +64,7 @@ export default function FeaturesWithIcons({ colorMode }) {
             ></div>
           </MotionDivDownToUp>
 
-          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center">
+          <div className="col3 tablet1:w-[50%] desktop1:w-[28%] flex flex-col justify-center items-center gap-2 ">
             <MotionDivDownToUp>
               <IconFeatureCard
                 icon={content.texts.features.card3.icon}
