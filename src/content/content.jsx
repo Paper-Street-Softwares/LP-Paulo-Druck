@@ -307,9 +307,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Transação de dívida tributária",
+        title: "Transação Tributária",
         subtitle:
-          "Negociação com o Fisco para parcelar, reduzir encargos e regularizar dívidas.",
+          "A legislação permite a negociação da dívida entre o Contribuinte e a Administração pública.",
         description: (
           <div>
             A_Definir
